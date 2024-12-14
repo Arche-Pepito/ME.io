@@ -56,7 +56,15 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 
     Create a new repository on GitHub for your portfolio app.
 
-2. **Configure `package.json`**
+2. **Install `gh-pages` Package**
+
+    Before deploying, install the `gh-pages` package by running:
+
+    ```bash
+    npm install gh-pages --save-dev
+    ```
+
+3. **Configure `package.json`**
 
     Edit the following properties in your `package.json` file:
 
@@ -73,7 +81,7 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 
     Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
 
-3. **Deploy to GitHub Pages**
+4. **Deploy to GitHub Pages**
 
     Run the following command to deploy your app:
 
@@ -81,6 +89,6 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
     npm run deploy
     ```
 
-4. **Access Your Deployed App**
+5. **Access Your Deployed App**
 
     After successfully deploying, you can access your app at `https://github.com/Arche-Pepito/ME.git`.
