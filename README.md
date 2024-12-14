@@ -62,7 +62,7 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 
     ```json
     {
-        "homepage": "https://github.com/Arche-Pepito/my-porfolio",
+        "homepage": " https://github.com/Arche-Pepito/ME.git",
         "scripts": {
             "predeploy": "npm run build",
             "deploy": "gh-pages -d build",
@@ -83,4 +83,4 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 
 4. **Access Your Deployed App**
 
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+    After successfully deploying, you can access your app at `https://github.com/Arche-Pepito/ME.git`.
